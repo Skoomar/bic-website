@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import NavButton from "./components/NavButton";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
@@ -12,17 +14,12 @@ function App() {
             <img style={{width:"12%", height:"auto"}} alt="Header Logo" src="header-logo.png" />
         </div>
 
-        <div id="nav-bar">
-            <div className="nav-button">
-                <p>Hello</p>
-            </div>
-            <div className="nav-button">
-                <p>Bye</p>
-            </div>
-            <div className="nav-button">
-                <p>About Us</p>
-            </div>
-        </div>
+        <NavBar/>
+        {/*<div id="nav-bar">*/}
+        {/*    <button onClick="openTab(event, ">Hello</button>*/}
+        {/*    <NavButton text="Home" />*/}
+        {/*    <NavButton text="About Us" />*/}
+        {/*</div>*/}
 
         <div className="top">
             <img style={{width:"40%", height:"auto"}} alt="Logo" src="logo.png" />
