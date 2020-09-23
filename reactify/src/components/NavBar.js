@@ -11,7 +11,8 @@ function NavBar() {
     let navButtons = []
 
     for (const x in navButtonSpec) {
-        navButtons.push((<button className="nav-button" onClick={openTab(event, {x[0]}} ))
+        // navButtons.push((<button className="nav-button" onClick={openTab(event, {x[0]}} )
+        navButtons.push(<button className="nav-button" onClick="openTab(event, {x[0]}"></button> )
     }
 
     return (
