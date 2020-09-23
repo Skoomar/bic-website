@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/bilboroughislamiccentre.org.uk/static/css/main.23e5dedc.chunk.css",
-    "main.js": "/bilboroughislamiccentre.org.uk/static/js/main.bad22afc.chunk.js",
-    "main.js.map": "/bilboroughislamiccentre.org.uk/static/js/main.bad22afc.chunk.js.map",
-    "runtime-main.js": "/bilboroughislamiccentre.org.uk/static/js/runtime-main.2364d3c6.js",
-    "runtime-main.js.map": "/bilboroughislamiccentre.org.uk/static/js/runtime-main.2364d3c6.js.map",
-    "static/js/2.8d9e8f04.chunk.js": "/bilboroughislamiccentre.org.uk/static/js/2.8d9e8f04.chunk.js",
-    "static/js/2.8d9e8f04.chunk.js.map": "/bilboroughislamiccentre.org.uk/static/js/2.8d9e8f04.chunk.js.map",
-    "index.html": "/bilboroughislamiccentre.org.uk/index.html",
-    "precache-manifest.8c927ccc5b7b766bfc9b0d6f2ad6a6a1.js": "/bilboroughislamiccentre.org.uk/precache-manifest.8c927ccc5b7b766bfc9b0d6f2ad6a6a1.js",
-    "service-worker.js": "/bilboroughislamiccentre.org.uk/service-worker.js",
-    "static/css/main.23e5dedc.chunk.css.map": "/bilboroughislamiccentre.org.uk/static/css/main.23e5dedc.chunk.css.map",
-    "static/js/2.8d9e8f04.chunk.js.LICENSE.txt": "/bilboroughislamiccentre.org.uk/static/js/2.8d9e8f04.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/bilboroughislamiccentre.org.uk/static/media/blue-bg.bd2f834c.png",
-    "static/media/fb_icon.png": "/bilboroughislamiccentre.org.uk/static/media/fb_icon.cf2a4130.png",
-    "static/media/header-logo.png": "/bilboroughislamiccentre.org.uk/static/media/header-logo.13e9e2dd.png",
-    "static/media/logo.png": "/bilboroughislamiccentre.org.uk/static/media/logo.7939f7ae.png",
-    "static/media/prayer-timetable.jpeg": "/bilboroughislamiccentre.org.uk/static/media/prayer-timetable.e644876c.jpeg"
+    "main.css": "/bic-website/static/css/main.0cbe1b59.chunk.css",
+    "main.js": "/bic-website/static/js/main.30f1da79.chunk.js",
+    "main.js.map": "/bic-website/static/js/main.30f1da79.chunk.js.map",
+    "runtime-main.js": "/bic-website/static/js/runtime-main.21b5869c.js",
+    "runtime-main.js.map": "/bic-website/static/js/runtime-main.21b5869c.js.map",
+    "static/js/2.8d9e8f04.chunk.js": "/bic-website/static/js/2.8d9e8f04.chunk.js",
+    "static/js/2.8d9e8f04.chunk.js.map": "/bic-website/static/js/2.8d9e8f04.chunk.js.map",
+    "index.html": "/bic-website/index.html",
+    "precache-manifest.cf5568924bc3b5fd5da8710eb3414829.js": "/bic-website/precache-manifest.cf5568924bc3b5fd5da8710eb3414829.js",
+    "service-worker.js": "/bic-website/service-worker.js",
+    "static/css/main.0cbe1b59.chunk.css.map": "/bic-website/static/css/main.0cbe1b59.chunk.css.map",
+    "static/js/2.8d9e8f04.chunk.js.LICENSE.txt": "/bic-website/static/js/2.8d9e8f04.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bic-website/static/media/blue-bg.bd2f834c.png",
+    "static/media/fb_icon.png": "/bic-website/static/media/fb_icon.cf2a4130.png",
+    "static/media/header-logo.png": "/bic-website/static/media/header-logo.13e9e2dd.png",
+    "static/media/logo.png": "/bic-website/static/media/logo.7939f7ae.png",
+    "static/media/prayer-timetable.jpeg": "/bic-website/static/media/prayer-timetable.e644876c.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2364d3c6.js",
+    "static/js/runtime-main.21b5869c.js",
     "static/js/2.8d9e8f04.chunk.js",
-    "static/css/main.23e5dedc.chunk.css",
-    "static/js/main.bad22afc.chunk.js"
+    "static/css/main.0cbe1b59.chunk.css",
+    "static/js/main.30f1da79.chunk.js"
   ]
 }
