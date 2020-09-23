@@ -41,20 +41,42 @@ body {
     background-image: url("./images/blue-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: "Georgia", serif;
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
 }
 
 .top {
     text-align: center;
 }
 
-#site-message {
+.centre {
     text-align: center;
-    font-family: "Trebuchet MS";
+
+}
+
+.window {
+    opacity: 0.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Keep the tabs in-line and give the active tab a border to make it stand out */
 .tab-list {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #800080;
+    text-align: center;
     padding-left: 0;
 }
 
@@ -67,11 +89,27 @@ body {
     padding: 0.5rem 0.75rem;
 }
 
+.tab-list-item:hover {
+    background-color: #9b4a9b;
+}
+
 .tab-list-active {
     background-color: white;
     color: black;
     border: solid #ccc;
     border-width: 1px 1px 0 1px;
+}
+
+.translucent-background {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#about-us {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 75%;
+    color: white;
 }
 
 #nav-bar {
