@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b58de2fd3caac50b8be81ad32f3ac54d",
+    "revision": "84f35c9cd4629dabda5d32d9fe920616",
     "url": "/bic-website/index.html"
   },
   {
-    "revision": "d31604b062f08f59f32e",
-    "url": "/bic-website/static/css/main.1c983801.chunk.css"
+    "revision": "20e3b986bc0db7c2f804",
+    "url": "/bic-website/static/css/main.0cbe1b59.chunk.css"
   },
   {
     "revision": "edaeab1c82e4e5a61f19",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bic-website/static/js/2.8d9e8f04.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d31604b062f08f59f32e",
-    "url": "/bic-website/static/js/main.4ac85f87.chunk.js"
+    "revision": "20e3b986bc0db7c2f804",
+    "url": "/bic-website/static/js/main.30f1da79.chunk.js"
   },
   {
     "revision": "f3feaee92e2534c4000d",
