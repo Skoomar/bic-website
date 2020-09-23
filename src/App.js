@@ -18,8 +18,9 @@ function App() {
             {/*</header>*/}
 
             <div className="header">
-                <img style={{width: "12%", height: "auto"}} alt="Header Logo"
-                     src={headerLogo}/>
+                <img style={{width: "12%", height: "auto"}} alt="Header Logo" src={headerLogo}/>
+
+                {/* TODO: Add social media links for FB, Twitter    */}
                 {/*<div id="#social-media">*/}
 
                 {/*    <a href="https://www.facebook.com/MakkiMussala/">*/}
