@@ -44,30 +44,24 @@ function App() {
                             <p>
                                 Assalam-wa-alaikum wa rahimtullah wa barakaatu hu<br/><br/>
 
-                                We are registered charity with Charity Commission since 2018.<br/><br/>
+                                We are a registered charity with Charity Commission since 2018.<br/><br/>
 
                                 Trustees have been very actively looking to buy a place for masjid
-                                since
-                                last 2-3 years prior to 2018 but no suitable options were available
-                                until Bilborough Baptist Church put on sale.<br/><br/>
+                                for the last 2-3 years prior to 2018 but no suitable options were available
+                                until Bilborough Baptist Church was put on sale.<br/><br/>
 
                                 We faced very tough competition from other interested parties keen
-                                to
-                                buy the place, but Allah SWT favoured us due to which we are
+                                to buy the place, but Allah SWT favoured us due to which we are
                                 privileged
                                 today.<br/>
 
                                 Funding arrangement of substantial amount to pay towards building
-                                and
-                                other expenses were the biggest challenges but with help of Allah
-                                SWT
-                                and generosity of few individual made it possible to buy the church.<br/><br/>
+                                and other expenses were the biggest challenges but with help of Allah
+                                SWT and generosity of few individual made it possible to buy the church.<br/><br/>
 
                                 We completed the purchase on 14th Dec 2018 when our journey of
-                                silent
-                                struggle has arrived to its first stop with the help of Allah SWT
-                                and
-                                also the monetary contributions from brothers/sisters who sacrificed
+                                silent struggle has arrived to its first stop with the help of Allah SWT
+                                and also the monetary contributions from brothers/sisters who sacrificed
                                 their worldly needs and made contribution into this great
                                 cause.<br/>
 
@@ -143,7 +137,6 @@ function App() {
                                 </ul>
 
                                 Jazak Allah khairun<br/><br/>
-
 
                                 From the Holy Quran:
                                 <ol>
