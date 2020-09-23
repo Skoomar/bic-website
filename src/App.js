@@ -18,7 +18,7 @@ function App() {
             {/*</header>*/}
 
             <div className="header">
-                <img style={{width: "250px", height: "auto"}} alt="Header Logo"
+                <img style={{width: "12%", height: "auto"}} alt="Header Logo"
                      src={headerLogo}/>
                 {/*<div id="#social-media">*/}
 
