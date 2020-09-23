@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/bic-website/static/css/main.0cbe1b59.chunk.css",
-    "main.js": "/bic-website/static/js/main.30f1da79.chunk.js",
-    "main.js.map": "/bic-website/static/js/main.30f1da79.chunk.js.map",
-    "runtime-main.js": "/bic-website/static/js/runtime-main.21b5869c.js",
-    "runtime-main.js.map": "/bic-website/static/js/runtime-main.21b5869c.js.map",
-    "static/js/2.8d9e8f04.chunk.js": "/bic-website/static/js/2.8d9e8f04.chunk.js",
-    "static/js/2.8d9e8f04.chunk.js.map": "/bic-website/static/js/2.8d9e8f04.chunk.js.map",
-    "index.html": "/bic-website/index.html",
-    "precache-manifest.4f25a1b253d4dd7df851bc99550cf55b.js": "/bic-website/precache-manifest.4f25a1b253d4dd7df851bc99550cf55b.js",
-    "service-worker.js": "/bic-website/service-worker.js",
-    "static/css/main.0cbe1b59.chunk.css.map": "/bic-website/static/css/main.0cbe1b59.chunk.css.map",
-    "static/js/2.8d9e8f04.chunk.js.LICENSE.txt": "/bic-website/static/js/2.8d9e8f04.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/bic-website/static/media/blue-bg.bd2f834c.png",
-    "static/media/fb_icon.png": "/bic-website/static/media/fb_icon.cf2a4130.png",
-    "static/media/header-logo.png": "/bic-website/static/media/header-logo.13e9e2dd.png",
-    "static/media/logo.png": "/bic-website/static/media/logo.7939f7ae.png",
-    "static/media/prayer-timetable.jpeg": "/bic-website/static/media/prayer-timetable.e644876c.jpeg"
+    "main.css": "/static/css/main.b594b0cd.chunk.css",
+    "main.js": "/static/js/main.cbbb086b.chunk.js",
+    "main.js.map": "/static/js/main.cbbb086b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.af642255.js",
+    "runtime-main.js.map": "/static/js/runtime-main.af642255.js.map",
+    "static/js/2.8d9e8f04.chunk.js": "/static/js/2.8d9e8f04.chunk.js",
+    "static/js/2.8d9e8f04.chunk.js.map": "/static/js/2.8d9e8f04.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2c162732cb9b104e0362b15cdfe467bc.js": "/precache-manifest.2c162732cb9b104e0362b15cdfe467bc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b594b0cd.chunk.css.map": "/static/css/main.b594b0cd.chunk.css.map",
+    "static/js/2.8d9e8f04.chunk.js.LICENSE.txt": "/static/js/2.8d9e8f04.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/blue-bg.bd2f834c.png",
+    "static/media/fb_icon.png": "/static/media/fb_icon.cf2a4130.png",
+    "static/media/header-logo.png": "/static/media/header-logo.13e9e2dd.png",
+    "static/media/logo.png": "/static/media/logo.7939f7ae.png",
+    "static/media/prayer-timetable.jpeg": "/static/media/prayer-timetable.e644876c.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.21b5869c.js",
+    "static/js/runtime-main.af642255.js",
     "static/js/2.8d9e8f04.chunk.js",
-    "static/css/main.0cbe1b59.chunk.css",
-    "static/js/main.30f1da79.chunk.js"
+    "static/css/main.b594b0cd.chunk.css",
+    "static/js/main.cbbb086b.chunk.js"
   ]
 }
