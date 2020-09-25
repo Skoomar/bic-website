@@ -42,7 +42,7 @@ function App() {
                     <div className="translucent-background">
                         <div id="about-us">
                             <p>
-                                <strong>Assalam-wa-alaikum wa rahimtullah wa barakaatu hu</strong><br/><br/>
+                                <strong>Assalam-o-alaikum wa rahimtullah wa barakaatu hu</strong><br/><br/>
 
                                 We are a registered charity with the Charity Commission since 2018.<br/><br/>
 
