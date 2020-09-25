@@ -37,6 +37,7 @@
 /*  }*/
 /*}*/
 
+/* TODO: Fix the background stretching thing when it has scroll vs no scroll bar */
 body {
     background-image: url("./images/blue-bg.png");
     background-size: cover;
