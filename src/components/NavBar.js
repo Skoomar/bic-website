@@ -1,26 +1,61 @@
-import React from "react";
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+import NavButton from './NavButton';
 
-function NavBar() {
-
-    const button = (<button className="nav-button">Two</button> )
-
-    // ToDo: generate the buttons from props, props should have the openTab(...) thing from the limewire website to open tabs within the page and also the text for the button
-    // ToDo: get rid of NavButton if it's not needed
-    // let navButtons = [(<button className="nav-button">One</button>), (<button className="nav-button">Two</button>)]
-    let navButtonSpec = [["Home", "home"], ["About Us", "about-us"], ["Prayer Timetable", "time-table"]]
-    let navButtons = []
-
-    for (const x in navButtonSpec) {
-        // navButtons.push((<button className="nav-button" onClick={openTab(event, {x[0]}} )
-        navButtons.push(<button className="nav-button" onClick="openTab(event, {x[0]}"></button> )
+class NavBar extends Component {
+    static propTypes = {
+        children: PropTypes.instanceOf(Array).isRequired,
     }
 
-    return (
-        <div id="nav-bar">
-            {navButtons}
-            <button className="nav-button" onClick="openTab(event, ">Hello</button>
-        </div>
-    )
+    constructor(props) {
+        super(props);
+
+        // Sets initial state so the first tab is active initially
+        this.state = {
+            activeTab: this.props.children[0].props.label,
+        };
+    }
+
+    // Update the app state to the tab just clicked by the user
+    onClickTabItem = (tab) => {
+        this.setState({ activeTab: tab });
+    }
+
+    // Keep track of which tab is active and display a list of tabs with the content of the
+    // current active tab
+    render() {
+        const {
+            onClickTabItem,
+            props: { children},
+            state: { activeTab },
+        } = this;
+
+        return (
+            <div className="tabs">
+                <ol className="tab-list">
+                    {children.map((child) => {
+                        const { label } = child.props;
+
+                        return (
+                            <NavButton
+                                activeTab={activeTab}
+                                key={label}
+                                label={label}
+                                onClick={onClickTabItem}
+                            />
+                        );
+                    })}
+                </ol>
+
+                <div className="tab-content">
+                    {children.map((child) => {
+                        if (child.props.label !== activeTab) return undefined;
+                        return child.props.children
+                    })}
+                </div>
+            </div>
+        )
+    }
 }
 
 export default NavBar
