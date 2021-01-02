@@ -143,33 +143,34 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .float-child {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border-radius: 25px;
 
     background-color: rgba(128,0,128, 0.7);
     border: 1px solid white;
+    border-radius: 10px;
     width: 35em;
     position: relative;
     align-items: center;
     justify-content: center;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 5px;
     padding-bottom: 10px;
 }
 
-.float-child.left {
-    float: left;
-    left: 15em;
+/*.float-child.left {*/
+/*    !*float: left;*!*/
+/*    !*left: 15em;*!*/
 
-}
+/*}*/
 
-.float-child.right {
-    float: right;
-    right: 15em;
+/*.float-child.right {*/
+/*    !*float: right;*!*/
+/*    !*right: 15em;*!*/
 
-}
+/*}*/
