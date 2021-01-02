@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from "./components/NavBar";
+import AmazonSmileBanner from "./components/AmazonSmileBanner"
 
 import headerLogo from "./images/header-logo.png"
 import logo from "./images/logo.png"
@@ -171,20 +172,31 @@ function App() {
                         <img src={timetableImg} alt="Prayer Timetable"/>
                     </div>
                 </div>
-                <div label="Donate" className="translucent-background">
-                    <p>
-                        <strong>Please donate generously</strong><br/><br/>
-                        <u>Bank details:</u><br/>
-                        Bilborough Islamic Centre Trust<br/>
-                        Sort code: 51-70-06<br/>
-                        Account No.: 80859356
-                    </p>
+                <div label="Donate" className="float-container">
+                    <div className="float-child left">
+                        <p>
+                            <strong>Please donate generously</strong><br/><br/>
+                            <u>Bank details:</u><br/>
+                            Bilborough Islamic Centre Trust<br/>
+                            Sort code: 51-70-06<br/>
+                            Account No.: 80859356
+                        </p>
+                    </div>
+                    <div className="float-child right">
+                        <p>Support Bilborough Islamic Centre Trust (Makki Masjid) by shopping with
+                            Amazon Smile. Use the link below "Visit smile.amazon.co.uk".
+                            Amazon will donate 0.5% (excluding VAT) to your chosen charity for every
+                            purchase you make without any cost to you.</p>
+                        <br/>
+                        <AmazonSmileBanner/>
+                    </div>
                 </div>
                 <div label="Contact Us">
                     <div className="text-tab">
                         <p>Email: info@bilboroughislamiccentre.org.uk</p>
                         <p>Address: Wigman Road, Bilborough, Nottingham, NG8 4PB</p>
-                        <p>Visit Us: <a href="https://goo.gl/maps/8s8r4yyBmF2P36UN8">Find us on Google Maps</a></p>
+                        <p>Visit Us: <a href="https://goo.gl/maps/8s8r4yyBmF2P36UN8">Find us on
+                            Google Maps</a></p>
                     </div>
                 </div>
             </NavBar>

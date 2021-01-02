@@ -137,3 +137,37 @@ p {
     position: relative;
     top: 5px;
 }
+
+
+
+.float-container {
+    position: absolute;
+}
+
+.float-child {
+    display: flex;
+    border-radius: 25px;
+
+    background-color: rgba(128,0,128, 0.7);
+    width: 35em;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.float-child.left {
+    display: flex;
+    flex-direction: column;
+    left: 15em;
+    border: 1px solid white;
+}
+
+.float-child.right {
+    display: flex;
+    flex-direction: column;
+    right: 15em;
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
