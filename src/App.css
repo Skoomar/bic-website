@@ -138,6 +138,19 @@ p {
     top: 5px;
 }
 
+.info-box {
+    background-color: rgba(34, 109, 59, 0.8);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 35em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
 .float-container {
     position: relative;
     display: flex;
@@ -151,16 +164,16 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
 
-    background-color: rgba(128,0,128, 0.7);
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 35em;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    padding-left: 15px;
-    padding-right: 5px;
-    padding-bottom: 10px;
+    /*background-color: rgba(128,0,128, 0.7);*/
+    /*border: 1px solid white;*/
+    /*border-radius: 10px;*/
+    /*width: 35em;*/
+    /*position: relative;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*padding-left: 15px;*/
+    /*padding-right: 5px;*/
+    /*padding-bottom: 10px;*/
 }
 
 /*.float-child.left {*/

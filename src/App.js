@@ -174,7 +174,7 @@ function App() {
                 </div>
                 <div label="Donate">
                     <div className="float-container">
-                        <div className="float-child">
+                        <div className="float-child info-box">
                             <p>
                                 <strong>Please donate generously</strong><br/><br/>
                                 <u>Bank details:</u><br/>
@@ -183,7 +183,7 @@ function App() {
                                 Account No.: 80859356
                             </p>
                         </div>
-                        <div className="float-child">
+                        <div className="float-child info-box">
                             <p>You shop. Amazon donates 0.5% of the net purchase price (excluding
                                 VAT,
                                 returns and shipping fees) of eligible purchases to your Makki
@@ -198,7 +198,7 @@ function App() {
                     </div>
                 </div>
                 <div label="Contact Us">
-                    <div className="text-tab">
+                    <div className="text-tab info-box">
                         <p>Email: info@bilboroughislamiccentre.org.uk</p>
                         <p>Address: Wigman Road, Bilborough, Nottingham, NG8 4PB</p>
                         <p>Visit Us: <a href="https://goo.gl/maps/8s8r4yyBmF2P36UN8">Find us on
