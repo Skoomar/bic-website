@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2921831552bb361d256be9b36ecd1f8c",
+    "revision": "e8a752506ad9e334ffd5d4259c646f76",
     "url": "/index.html"
   },
   {
-    "revision": "c64e5de547788a645c4d",
+    "revision": "02c1d4ebfa5303a76a03",
     "url": "/static/css/main.73522561.chunk.css"
   },
   {
-    "revision": "edaeab1c82e4e5a61f19",
-    "url": "/static/js/2.8d9e8f04.chunk.js"
+    "revision": "4d6b52ab8eca9a485295",
+    "url": "/static/js/2.888c53a6.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.8d9e8f04.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.888c53a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c64e5de547788a645c4d",
-    "url": "/static/js/main.950aca4c.chunk.js"
+    "revision": "02c1d4ebfa5303a76a03",
+    "url": "/static/js/main.d4e72064.chunk.js"
   },
   {
     "revision": "e34a82c5fabea5c6ccc9",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/blue-bg.bd2f834c.png"
   },
   {
-    "revision": "cf2a413069142eb7676c4b8e4274eb64",
-    "url": "/static/media/fb_icon.cf2a4130.png"
+    "revision": "eb0a2f95a0e12724894fee28e6e995e2",
+    "url": "/static/media/donation-banner.eb0a2f95.jpg"
   },
   {
     "revision": "13e9e2dd2f57cb89571a58af9586dcb7",
