@@ -29,7 +29,7 @@ function App() {
                 {/*</div>*/}
                 <div className="info-box" style={{top: "10px"}}>
                     <h1>Urgent Appeal</h1>
-                    <p>Please help raise funds for the Masjid's transformation</p>
+                    <p>Please help raise funds for the Masjid's transformation project</p>
                     <p>Donate here: <a href="https://www.digitalummah.uk/campaigns/windows-to-jannah">Digital Ummah</a></p>
                 </div>
             </div>
