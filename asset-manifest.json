@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.73522561.chunk.css",
-    "main.js": "/static/js/main.f7bf3f50.chunk.js",
-    "main.js.map": "/static/js/main.f7bf3f50.chunk.js.map",
+    "main.js": "/static/js/main.38e4a205.chunk.js",
+    "main.js.map": "/static/js/main.38e4a205.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.af642255.js",
     "runtime-main.js.map": "/static/js/runtime-main.af642255.js.map",
     "static/js/2.888c53a6.chunk.js": "/static/js/2.888c53a6.chunk.js",
     "static/js/2.888c53a6.chunk.js.map": "/static/js/2.888c53a6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bb26a53ec65b3d13b7640dc47fcd4a3d.js": "/precache-manifest.bb26a53ec65b3d13b7640dc47fcd4a3d.js",
+    "precache-manifest.3653bfa89d3f0f42ff93d7b5789eaa9b.js": "/precache-manifest.3653bfa89d3f0f42ff93d7b5789eaa9b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.73522561.chunk.css.map": "/static/css/main.73522561.chunk.css.map",
     "static/js/2.888c53a6.chunk.js.LICENSE.txt": "/static/js/2.888c53a6.chunk.js.LICENSE.txt",
@@ -16,12 +16,12 @@
     "static/media/donation-banner.jpg": "/static/media/donation-banner.eb0a2f95.jpg",
     "static/media/header-logo.png": "/static/media/header-logo.13e9e2dd.png",
     "static/media/logo.png": "/static/media/logo.7939f7ae.png",
-    "static/media/prayer-timetable.jpeg": "/static/media/prayer-timetable.fe29e06b.jpeg"
+    "static/media/prayer-timetable.jpeg": "/static/media/prayer-timetable.0268137a.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.af642255.js",
     "static/js/2.888c53a6.chunk.js",
     "static/css/main.73522561.chunk.css",
-    "static/js/main.f7bf3f50.chunk.js"
+    "static/js/main.38e4a205.chunk.js"
   ]
 }
