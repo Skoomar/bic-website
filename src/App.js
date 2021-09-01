@@ -27,11 +27,7 @@ function App() {
                 {/*        Bilborough Islamic Centre*/}
                 {/*    </a>*/}
                 {/*</div>*/}
-                <div className="info-box" style={{top: "10px"}}>
-                    <h1>Urgent Appeal</h1>
-                    <p>Please help raise funds for the Masjid's transformation project</p>
-                    <p>Donate here: <a href="https://www.digitalummah.uk/campaigns/windows-to-jannah">Digital Ummah</a></p>
-                </div>
+                
             </div>
 
             {/*<NavBar/>*/}
@@ -188,11 +184,7 @@ function App() {
                                 Account No.: 80859356
                             </p>
                         </div>
-                        <div className="info-box">
-                            <h1>Urgent Appeal</h1>
-                            <p>Donate Here: <a href="https://www.digitalummah.uk/campaigns/windows-to-jannah">Digital Ummah</a></p>
-                            <img style={{maxWidth: "100%", maxHeight: "100%"}} src={donationBanner} alt="Construction Donation Banner"/>
-                        </div>
+
                         <div className="float-child info-box">
                             <p>You shop. Amazon donates 0.5% of the net purchase price (excluding
                                 VAT,
