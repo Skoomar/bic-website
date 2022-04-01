@@ -6,7 +6,7 @@ import AmazonSmileBanner from "./components/AmazonSmileBanner"
 import headerLogo from "./images/header-logo.png"
 import logo from "./images/logo.png"
 import timetableImg from "./images/prayer-timetable.jpeg"
-import donationBanner from "./images/donation-banner.jpg"
+import ramadanAppeal from "./images/Ramadan Appeal.jpg"
 
 function App() {
 
@@ -27,7 +27,11 @@ function App() {
                 {/*        Bilborough Islamic Centre*/}
                 {/*    </a>*/}
                 {/*</div>*/}
-                
+                <div className="info-box">
+                    <h1>Ramadan Appeal</h1>
+                    <h3>Roof Replacement: £25,000</h3>
+                    <h3>Madrassa Extension: £75,000</h3>
+                </div>
             </div>
 
             {/*<NavBar/>*/}
@@ -39,6 +43,11 @@ function App() {
 
             <NavBar>
                 <div label="Home">
+                    <div className="centre">
+                        <img src={ramadanAppeal} height="75%"></img>
+                    </div>
+                </div>
+                <div label="About">
                     <div className="translucent-background">
                         <div id="about-us">
                             <p>
@@ -191,8 +200,8 @@ function App() {
                                 returns and shipping fees) of eligible purchases to your Makki
                                 Masjid
                                 (Bilborough Islamic Centre Trust)
-                                <br/>Support your local Makki Masjid by start your shopping using
-                                link given
+                                <br/>Support Makki Masjid by shopping using
+                                the link given
                                 below (smile.amazon.co.uk)</p>
                             <br/>
                             <AmazonSmileBanner/>
