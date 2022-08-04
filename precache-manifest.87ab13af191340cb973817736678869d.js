@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07127f854813437fc1430c42e75d33db",
+    "revision": "648b350e5387500566064b98ab96b124",
     "url": "/index.html"
   },
   {
-    "revision": "f9764dede63edcfc42a6",
+    "revision": "cc0fe2c6f3642ba520fa",
     "url": "/static/css/main.73522561.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.888c53a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9764dede63edcfc42a6",
-    "url": "/static/js/main.2cc1fee1.chunk.js"
+    "revision": "cc0fe2c6f3642ba520fa",
+    "url": "/static/js/main.caebc7c0.chunk.js"
   },
   {
     "revision": "e34a82c5fabea5c6ccc9",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.7939f7ae.png"
   },
   {
-    "revision": "538f7b7eae3f1ff46612834340d8ee6f",
-    "url": "/static/media/prayer-timetable.538f7b7e.jpeg"
+    "revision": "d3160dc4866718181429052917dfc0a7",
+    "url": "/static/media/prayer-timetable.d3160dc4.jpeg"
   }
 ]);
