@@ -5,7 +5,7 @@ import AmazonSmileBanner from "./components/AmazonSmileBanner"
 
 import headerLogo from "./images/header-logo.png"
 import logo from "./images/logo.png"
-import timetableImg from "./images/prayer-timetable.jpeg"
+import timetableImg from "./images/prayer-timetable.jpg"
 import ramadanAppeal from "./images/Ramadan Appeal.jpg"
 
 function App() {
