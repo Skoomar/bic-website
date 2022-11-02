@@ -27,11 +27,6 @@ function App() {
                 {/*        Bilborough Islamic Centre*/}
                 {/*    </a>*/}
                 {/*</div>*/}
-                <div className="info-box">
-                    <h1>Ramadan Appeal</h1>
-                    <h3>Roof Replacement: £25,000</h3>
-                    <h3>Madrassa Extension: £75,000</h3>
-                </div>
             </div>
 
             {/*<NavBar/>*/}
@@ -43,8 +38,10 @@ function App() {
 
             <NavBar>
                 <div label="Home">
-                    <div className="centre">
-                        <img src={ramadanAppeal} height="75%"></img>
+                    <div className="float-container">
+                        <div className="info-box">
+                            <h1>Fundraising Appeal for Fire Alarm</h1>
+                        </div>
                     </div>
                 </div>
                 <div label="About">
