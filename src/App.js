@@ -37,11 +37,9 @@ function App() {
             {/*</div>*/}
 
             <NavBar>
-                <div label="Home">
-                    <div className="float-container">
-                        <div className="info-box">
-                            <h1>Fundraising Appeal for Fire Alarm</h1>
-                        </div>
+                <div label="Prayer Timetable" className="centre">
+                    <div className="centre">
+                        <img src={timetableImg} alt="Prayer Timetable"/>
                     </div>
                 </div>
                 <div label="About">
@@ -172,11 +170,6 @@ function App() {
                         <div className="centre">
                             <img style={{width: "40%", height: "auto"}} alt="Logo" src={logo}/>
                         </div>
-                    </div>
-                </div>
-                <div label="Prayer Timetable" className="centre">
-                    <div className="centre">
-                        <img src={timetableImg} alt="Prayer Timetable"/>
                     </div>
                 </div>
                 <div label="Donate">
