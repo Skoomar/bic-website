@@ -4,7 +4,10 @@
   "description": "Bilborough Islamic Centre",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "start": "node server/server.js",
+    "build:dev": "webpack",
+    "build:prod": "webpack --env production",
+    "dev-server": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
