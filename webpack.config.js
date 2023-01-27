@@ -5,7 +5,7 @@ module.exports = (env) => {
     const isProd = env === 'production';
 
     return {
-        entry: './src/App.js',
+        entry: './src/App.tsx',
         output: {
             path: path.join(__dirname, 'public', 'dist'),
             filename: 'bundle.js',
@@ -13,14 +13,25 @@ module.exports = (env) => {
         },
         mode: 'development',
         module: {
-            rules: [{
-                loader: 'babel-loader',
-                test: /\.js$/,
-                exclude: /node_modules/
-            }, {
-                test: /\.s?css$/,
-                use: [miniCssExtractPlugin.loader, "css-loader", "sass-loader"]
-            }]
+            rules: [
+                {
+                    test: /\.tsx?$/,
+                    use: 'ts-loader',
+                    exclude: /node_modules/,
+                },
+                {
+                    loader: 'babel-loader',
+                    test: /\.js$/,
+                    exclude: /node_modules/
+                },
+                {
+                    test: /\.s?css$/,
+                    use: [miniCssExtractPlugin.loader, "css-loader", "sass-loader"]
+                }
+            ]
+        },
+        resolve: {
+           extensions: ['.tsx', '.ts', '.js'],
         },
         plugins: [
             new miniCssExtractPlugin()
