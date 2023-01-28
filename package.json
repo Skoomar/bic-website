@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Skoomar/bic-website#readme",
   "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.12",
     "@types/jest": "^29.4.0",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.27",
@@ -35,6 +36,7 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6",
     "webpack": "^5.75.0"
   },
   "devDependencies": {

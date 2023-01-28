@@ -1,14 +1,16 @@
 import React from 'react';
-import { createRoot } from "react-dom/client";
+import {createRoot} from "react-dom/client";
+
+import {NextUIProvider} from "@nextui-org/react";
 import "normalize.css/normalize.css";
 import "./styles/styles.scss"
 
 import Main from "./components/Main";
 
 const App = (
-    <div>
+    <NextUIProvider>
         <Main />
-    </div>
+    </NextUIProvider>
 );
 
 const container = document.getElementById('app');
