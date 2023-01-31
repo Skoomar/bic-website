@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Skoomar/bic-website#readme",
   "dependencies": {
-    "@nextui-org/react": "^1.0.0-beta.12",
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.10.2",
+    "@mantine/hooks": "^5.10.2",
     "@types/jest": "^29.4.0",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.27",

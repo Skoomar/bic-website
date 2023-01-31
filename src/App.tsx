@@ -1,16 +1,18 @@
 import React from 'react';
-import {createRoot} from "react-dom/client";
+import { createRoot } from 'react-dom/client';
+import { MantineProvider } from '@mantine/core';
 
-import {NextUIProvider} from "@nextui-org/react";
-import "normalize.css/normalize.css";
-import "./styles/styles.scss"
+import 'normalize.css/normalize.css';
+import './styles/styles.scss'
 
-import Main from "./components/Main";
+import Main from './components/Main';
 
 const App = (
-    <NextUIProvider>
-        <Main />
-    </NextUIProvider>
+    <div>
+        <MantineProvider withGlobalStyles withNormalizeCSS>
+            <Main />
+        </MantineProvider>
+    </div>
 );
 
 const container = document.getElementById('app');

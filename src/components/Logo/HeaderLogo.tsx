@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Image } from "@nextui-org/react";
+import { Image } from '@mantine/core';
 import headerLogoImg from "./header-logo.png";
 
 type HeaderLogoProps = {
@@ -9,13 +9,10 @@ type HeaderLogoProps = {
 
 const HeaderLogo: FC<HeaderLogoProps> = ({ width, height }) => {
     return (
-        <Image
-            src={headerLogoImg}
-            alt="Header Logo"
-            width={width}
-            height={height}
-        />
+        <div>
+            <Image src={headerLogoImg} alt="Header Logo" width={width} height={height} />
+        </div>
     );
-}
+};
 
 export default HeaderLogo;
