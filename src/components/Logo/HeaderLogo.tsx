@@ -1,16 +1,15 @@
 import React, { FC } from "react";
-import { Image } from '@mantine/core';
+import { Image } from "@chakra-ui/react";
 import headerLogoImg from "./header-logo.png";
 
 type HeaderLogoProps = {
-    width: string;
-    height: string;
+    size: string;
 }
 
-const HeaderLogo: FC<HeaderLogoProps> = ({ width, height }) => {
+const HeaderLogo: FC<HeaderLogoProps> = ({ size }) => {
     return (
         <div>
-            <Image src={headerLogoImg} alt="Header Logo" width={width} height={height} />
+            <Image src={headerLogoImg} alt="Header Logo" w="auto" h={size} />
         </div>
     );
 };

@@ -1,17 +1,17 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { MantineProvider } from '@mantine/core';
+import { ChakraProvider } from '@chakra-ui/react';
 
 import 'normalize.css/normalize.css';
-import './styles/styles.scss'
+import './styles/styles.scss';
 
 import Main from './components/Main';
 
 const App = (
     <div>
-        <MantineProvider withGlobalStyles withNormalizeCSS>
+        <ChakraProvider>
             <Main />
-        </MantineProvider>
+        </ChakraProvider>
     </div>
 );
 
