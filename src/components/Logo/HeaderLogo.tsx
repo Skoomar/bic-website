@@ -1,16 +1,13 @@
 import React, { FC } from "react";
-import { Image } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
 import headerLogoImg from "./header-logo.png";
 
-type HeaderLogoProps = {
-    size: string;
-}
 
-const HeaderLogo: FC<HeaderLogoProps> = ({ size }) => {
+const HeaderLogo: FC = () => {
     return (
-        <div>
-            <Image src={headerLogoImg} alt="Header Logo" w="auto" h={size} />
-        </div>
+        <Flex justify={["center", null, "center", "left"]}>
+            <Image src={headerLogoImg} alt="Header Logo" w="auto" h={["12rem", "18rem"]} />
+        </Flex>
     );
 };
 

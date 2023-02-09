@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import {  Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 import HeaderLogo from "../Logo/HeaderLogo";
 
@@ -7,8 +7,8 @@ import HeaderLogo from "../Logo/HeaderLogo";
 const Header = () => {
     return (
         <div>
-            <HeaderLogo size="18rem" />
-            <Tabs size="lg" variant="soft-rounded" align="center">
+            <HeaderLogo />
+            <Tabs variant="soft-rounded" align="center" size="lg">
                 <TabList>
                     <Tab>Home</Tab>
                     <Tab>Prayer Timetable</Tab>
