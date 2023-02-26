@@ -1,16 +1,14 @@
 import React from "react";
 
-import HeaderLogo from "../Logo/HeaderLogo";
-import { Box, Tab, Tabs } from "@mui/material";
-import Navbar from "./Navbar";
+import HeaderLogo from "./HeaderLogo";
+import { Box } from "@mui/material";
 
 
 const Header = () => (
-    <div>
+    <div className="header">
         <Box textAlign={["center", "left"]}>
             <HeaderLogo />
         </Box>
-        <Navbar />
 
     </div>
 );

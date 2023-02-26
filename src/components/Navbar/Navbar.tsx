@@ -5,6 +5,8 @@ import HomeIcon from "./icons/HomeIcon";
 import DonateIcon from "./icons/DonateIcon";
 import CalendarIcon from "./icons/CalendarIcon";
 import ContactUsIcon from "./icons/ContactUsIcon";
+import Home from "../Home";
+import Timetable from "../Timetable/Timetable";
 
 
 const a11yProps = (index: number) => {
@@ -24,12 +26,14 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box >
+            <Box sx={{width: '100%'}} className="navbar">
                 <Tabs
                     centered
+                    // variant="fullWidth"
                     value={currentTab}
                     onChange={handleChange}
                     aria-label="basic tabs example"
+                    textColor="secondary"
                 >
                     <Tab icon={<HomeIcon />} label="Home" {...a11yProps(0)} />
                     <Tab icon={<CalendarIcon />} label="Prayer Timetable" {...a11yProps(1)} />
@@ -38,10 +42,10 @@ export default function BasicTabs() {
                 </Tabs>
             </Box>
             <TabContent tabId={0} currentTab={currentTab}>
-                Home
+                <Home />
             </TabContent>
             <TabContent tabId={1} currentTab={currentTab}>
-                Prayer Timetable
+                <Timetable />
             </TabContent>
             <TabContent tabId={2} currentTab={currentTab}>
                 Donate
