@@ -3,7 +3,7 @@ import React from "react";
 const HomeIcon = () => (
     <svg
         aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
-        width="30" height="30"
+        width="32" height="32"
         xmlns="http://www.w3.org/2000/svg"
     >
         <path

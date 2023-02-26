@@ -5,7 +5,7 @@ import HomeIcon from "./icons/HomeIcon";
 import DonateIcon from "./icons/DonateIcon";
 import CalendarIcon from "./icons/CalendarIcon";
 import ContactUsIcon from "./icons/ContactUsIcon";
-import Home from "../Home";
+import HomeSection from "../HomeSection";
 import Timetable from "../Timetable/Timetable";
 
 
@@ -42,7 +42,7 @@ export default function BasicTabs() {
                 </Tabs>
             </Box>
             <TabContent tabId={0} currentTab={currentTab}>
-                <Home />
+                <HomeSection />
             </TabContent>
             <TabContent tabId={1} currentTab={currentTab}>
                 <Timetable />

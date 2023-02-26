@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => (
+const HomeSection = () => (
     <div>
         <p>
             <strong>Assalam-o-alaikum wa rahimtullah wa barakaatu
@@ -102,4 +102,4 @@ const Home = () => (
     </div>
 );
 
-export default Home;
+export default HomeSection;
