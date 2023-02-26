@@ -1,6 +1,10 @@
 import * as React from 'react';
-import {Box, Tabs, Tab} from '@mui/material';
+import { Box, Tabs, Tab } from '@mui/material';
 import TabContent from "./TabContent";
+import HomeIcon from "./icons/HomeIcon";
+import DonateIcon from "./icons/DonateIcon";
+import CalendarIcon from "./icons/CalendarIcon";
+import ContactUsIcon from "./icons/ContactUsIcon";
 
 
 const a11yProps = (index: number) => {
@@ -8,7 +12,8 @@ const a11yProps = (index: number) => {
         id: `simple-tab-${index}`,
         'aria-controls': `simple-TabContent-${index}`,
     };
-}
+};
+
 
 export default function BasicTabs() {
     const [currentTab, setCurrentTab] = React.useState(0);
@@ -19,16 +24,21 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                <Tabs value={currentTab} onChange={handleChange} aria-label="basic tabs example">
-                    <Tab label="Home" {...a11yProps(0)} />
-                    <Tab label="Prayer Timetable" {...a11yProps(1)} />
-                    <Tab label="Donate" {...a11yProps(2)} />
-                    <Tab label="Contact Us" {...a11yProps(3)} />
+            <Box >
+                <Tabs
+                    centered
+                    value={currentTab}
+                    onChange={handleChange}
+                    aria-label="basic tabs example"
+                >
+                    <Tab icon={<HomeIcon />} label="Home" {...a11yProps(0)} />
+                    <Tab icon={<CalendarIcon />} label="Prayer Timetable" {...a11yProps(1)} />
+                    <Tab icon={<DonateIcon />} label="Donate" {...a11yProps(2)} />
+                    <Tab icon={<ContactUsIcon />} label="Contact Us" {...a11yProps(3)} />
                 </Tabs>
             </Box>
             <TabContent tabId={0} currentTab={currentTab}>
-               Home
+                Home
             </TabContent>
             <TabContent tabId={1} currentTab={currentTab}>
                 Prayer Timetable

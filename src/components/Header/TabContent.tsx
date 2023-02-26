@@ -14,8 +14,8 @@ const TabContent = (props: TabPanelProps) => {
         <div
             role="tabpanel"
             hidden={currentTab !== tabId}
-            id={`simple-tabpanel-${tabId}`}
-            aria-labelledby={`simple-tab-${tabId}`}
+            id={`tabpanel-${tabId}`}
+            aria-labelledby={`tabpanel-${tabId}`}
             {...other}
         >
             {currentTab === tabId && (
