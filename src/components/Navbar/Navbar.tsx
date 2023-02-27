@@ -26,7 +26,7 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box sx={{width: '100%'}} className="navbar">
+            <Box sx={{ borderBottom: 3, borderColor: '#956A24' }} className="navbar">
                 <Tabs
                     centered
                     // variant="fullWidth"
@@ -34,6 +34,7 @@ export default function BasicTabs() {
                     onChange={handleChange}
                     aria-label="navigation bar"
                     textColor="secondary"
+                    indicatorColor="secondary"
                 >
                     <Tab icon={<HomeIcon />} label="Home" {...a11yProps(0)} />
                     <Tab icon={<CalendarIcon />} label="Prayer Timetable" {...a11yProps(1)} />

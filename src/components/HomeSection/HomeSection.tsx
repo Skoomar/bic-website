@@ -16,8 +16,7 @@ const HomeSection = () => (
             was put on sale.<br /><br />
 
             We faced very tough competition from other interested parties keen to buy the place,
-            but Allah SWT favoured us due to which we are privileged to own it now.<br />
-
+            but Allah SWT favoured us due to which we are privileged to own it now.
             Acquiring the substantial amounts required to pay towards the building and other
             expenses was the biggest challenge but with the help of Allah SWT and the generosity of
             a few individual it was possible to buy the church.<br /><br />
@@ -25,30 +24,26 @@ const HomeSection = () => (
             We completed the purchase on the 14th Dec 2018 and our journey of silent struggle
             arrived to its first stop with the help of Allah SWT and also the monetary
             contributions from brothers/sisters who sacrificed their worldly needs and made
-            contributions into this great cause.<br />
-
-            Sadly, humanity has forgotten the purpose of their creation today, their master and the
-            path of the prophets/messengers who were deputed to remind us how to spend life in this
-            dunyia and prepare for life in the unforeseen era we are heading to. Let’s make a
-            pledge today to comeback to the forgotten path and follow the guidance of the Quran,
-            Sunnah, and the path of Sehabah Rizwan ullalh ha ajmaeen.<br /><br />
+            contributions into this great cause. Sadly, humanity has forgotten the purpose of their
+            creation today, their master and the path of the prophets/messengers who were deputed
+            to remind us how to spend life in this dunyia and prepare for life in the unforeseen
+            era we are heading to. Let’s make a pledge today to comeback to the forgotten path and
+            follow the guidance of the Quran, Sunnah, and the path of Sehabah Rizwan ullalh ha
+            ajmaeen.<br /><br />
 
 
             The concept of this masjid is to use the platform to learn and connect to Allah,
             correct ourselves and invite others which is a prime duty assigned to us, being
             followers of the last and final messenger. Our success of this Duniya and Akhira is
-            left in the Deen.<br />
-
-            On one side we have a number of challenges but on the other hand we have a big
-            opportunity to work for our present and future generations.<br />
-
-            In order to achieve these targets, we need a platform and also a continuous fiqar for
-            Deen according to the path of Quran, Sunnah of Prophet PUBH and golden life of Sehabah
+            left in the Deen. On one side we have a number of challenges but on the other hand we
+            have a big opportunity to work for our present and future generations. In order to
+            achieve these targets, we need a platform and also a continuous fiqar for Deen
+            according to the path of Quran, Sunnah of Prophet PUBH and golden life of Sehabah
             Rizwan ullah ha ajmaeen.<br /><br />
 
             To proceed on these lines; we have the following achievement and plans which we would
             like to share with you and request your ownership, patronage, and support throughout
-            each stage:<br />
+            each stage:
 
             <ul>
                 <li>
@@ -79,8 +74,13 @@ const HomeSection = () => (
             </ul>
 
             Jazak Allah khairun<br /><br />
+        </Typography>
 
+        <Typography variant="subtitle1">
             From the Holy Quran:
+        </Typography>
+
+        <Typography variant="body1">
             <ol>
                 <li>
                     ادع إلى سبيل ربك بالحكمة والموعظة الحسنة
@@ -100,7 +100,8 @@ const HomeSection = () => (
                 </li>
             </ol>
         </Typography>
-        <Box sx={{width: '100%'}} display="flex" justifyContent="center">
+
+        <Box sx={{ width: '100%' }} display="flex" justifyContent="center">
             <MainLogo />
         </Box>
     </div>
