@@ -1,13 +1,14 @@
 import React from "react";
+import { Box, Typography } from "@mui/material";
+import MainLogo from "./MainLogo";
 
 const HomeSection = () => (
     <div>
-        <p>
-            <strong>Assalam-o-alaikum wa rahimtullah wa barakaatu
-                hu
-            </strong>
-            <br /><br />
+        <Typography component="h1" variant="h6">
+            Assalam-o-alaikum wa rahimtullah wa barakaatu hu
+        </Typography>
 
+        <Typography variant="body1">
             We are a registered charity with the Charity Commission since 2018.<br /><br />
 
             Trustees had been very actively looking to buy a place for the masjid for the 2-3 years
@@ -98,7 +99,10 @@ const HomeSection = () => (
                     Allah Ta’ala). (Verse: 41:33)
                 </li>
             </ol>
-        </p>
+        </Typography>
+        <Box sx={{width: '100%'}} display="flex" justifyContent="center">
+            <MainLogo />
+        </Box>
     </div>
 );
 

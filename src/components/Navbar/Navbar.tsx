@@ -5,7 +5,7 @@ import HomeIcon from "./icons/HomeIcon";
 import DonateIcon from "./icons/DonateIcon";
 import CalendarIcon from "./icons/CalendarIcon";
 import ContactUsIcon from "./icons/ContactUsIcon";
-import HomeSection from "../HomeSection";
+import HomeSection from "../HomeSection/HomeSection";
 import Timetable from "../Timetable/Timetable";
 
 
@@ -32,7 +32,7 @@ export default function BasicTabs() {
                     // variant="fullWidth"
                     value={currentTab}
                     onChange={handleChange}
-                    aria-label="basic tabs example"
+                    aria-label="navigation bar"
                     textColor="secondary"
                 >
                     <Tab icon={<HomeIcon />} label="Home" {...a11yProps(0)} />

@@ -9,11 +9,12 @@ const Timetable = () => {
                 component="img"
                 src={timetableImg}
                 alt="prayer-timetable"
-                // width="auto"
-                // height={["12rem", "18rem"]}
-
+                width="auto"
+                height={["30rem", "auto"]}
+                sx={{
+                    border: 2,
+                }}
             />
-            {/*<img src="./prayer-timetable.jpg" alt="Prayer Timetable"/>*/}
         </Box>
     );
 };
