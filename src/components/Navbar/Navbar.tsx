@@ -16,6 +16,8 @@ const a11yProps = (index: number) => {
     };
 };
 
+// TODO: different colour of tab on mouse hover
+// TODO: make the default text colour contrast to background colour
 
 export default function BasicTabs() {
     const [currentTab, setCurrentTab] = React.useState(0);
@@ -26,7 +28,7 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box sx={{ borderBottom: 3, borderColor: '#956A24' }} className="navbar">
+            <Box sx={{ bgcolor: '#D29C45', borderBottom: 3, borderColor: 'divider' }}>
                 <Tabs
                     centered
                     // variant="fullWidth"

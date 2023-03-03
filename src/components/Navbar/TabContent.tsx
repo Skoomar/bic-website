@@ -19,8 +19,10 @@ const TabContent = (props: TabPanelProps) => {
             {...other}
         >
             {currentTab === tabId && (
-                <Box sx={{ p: 3 }}>
-                    <Typography>{children}</Typography>
+                <Box  display="flex" justifyContent="center">
+                    <Box sx={{ width: '80%', bgcolor: '#EDFFEC', p: 10 }}>
+                        <Typography>{children}</Typography>
+                    </Box>
                 </Box>
             )}
         </div>

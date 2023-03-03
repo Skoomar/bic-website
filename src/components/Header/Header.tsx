@@ -5,12 +5,12 @@ import { Box } from "@mui/material";
 
 
 const Header = () => (
-    <div className="header">
-        <Box textAlign={["center", "left"]}>
+    <Box sx={{ bgcolor: '#0F5A47' }}>
+        <Box textAlign={["center", "left"]} sx={{ borderBottom: 5, borderColor: 'divider'}}>
             <HeaderLogo />
         </Box>
 
-    </div>
+    </Box>
 );
 
 

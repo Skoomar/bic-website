@@ -4,12 +4,16 @@ import MainLogo from "./MainLogo";
 
 const HomeSection = () => (
     <div>
-        <Typography component="h1" variant="h6">
+        <Typography variant="h4" component="h1">
+            About Us
+        </Typography>
+        <br/>
+        <Typography variant="subtitle1">
             Assalam-o-alaikum wa rahimtullah wa barakaatu hu
         </Typography>
-
+        <br/>
         <Typography variant="body1">
-            We are a registered charity with the Charity Commission since 2018.<br /><br />
+            We are a registered charity with the Charity Commission since 2018.<br />
 
             Trustees had been very actively looking to buy a place for the masjid for the 2-3 years
             prior to 2018 but no suitable options were available until Bilborough Baptist Church
