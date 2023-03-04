@@ -10,7 +10,7 @@ const HeaderLogo: FC = () => {
             src={headerLogoImg} 
             alt="header-logo"
             width="auto"
-            height={["12rem", "15rem"]}
+            height={["10rem", "15rem"]}
         />
     );
 };

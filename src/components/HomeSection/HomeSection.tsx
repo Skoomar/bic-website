@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import MainLogo from "./MainLogo";
 
+// TODO: make text sizes responsive, currently looks too big on mobile
 const HomeSection = () => (
     <div>
         <Typography variant="h4" component="h1">

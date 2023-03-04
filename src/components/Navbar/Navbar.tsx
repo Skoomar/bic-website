@@ -31,7 +31,7 @@ export default function BasicTabs() {
             <Box sx={{ bgcolor: '#D29C45', borderTop: 3, borderBottom: 3, borderColor: 'divider' }}>
                 <Tabs
                     centered
-                    // variant="fullWidth"
+                    variant="fullWidth"
                     value={currentTab}
                     onChange={handleChange}
                     aria-label="navigation bar"
