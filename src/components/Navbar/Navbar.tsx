@@ -28,7 +28,7 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box sx={{ bgcolor: '#D29C45', borderBottom: 3, borderColor: 'divider' }}>
+            <Box sx={{ bgcolor: '#D29C45', borderTop: 3, borderBottom: 3, borderColor: 'divider' }}>
                 <Tabs
                     centered
                     // variant="fullWidth"
