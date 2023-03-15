@@ -7,7 +7,7 @@ interface TabPanelProps {
     currentTab: number;
 }
 
-const TabContent = (props: TabPanelProps) => {
+const Section = (props: TabPanelProps) => {
     const { children, currentTab, tabId, ...other } = props;
 
     return (
@@ -25,10 +25,9 @@ const TabContent = (props: TabPanelProps) => {
                             width: '80%',
                             bgcolor: '#EDFFEC',
                             p: 10,
-                            borderTop: 3,
                             borderLeft: 10,
                             borderRight: 10,
-                            borderColor: 'divider'
+                            borderColor: '#D29C45'
                         }}
                     >
                         <Typography>{children}</Typography>
@@ -39,4 +38,4 @@ const TabContent = (props: TabPanelProps) => {
     );
 };
 
-export default TabContent;
+export default Section;

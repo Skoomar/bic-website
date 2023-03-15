@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Box, Tabs, Tab } from '@mui/material';
-import TabContent from "./TabContent";
+import Section from "../Section";
 import HomeIcon from "./icons/HomeIcon";
 import DonateIcon from "./icons/DonateIcon";
 import CalendarIcon from "./icons/CalendarIcon";
@@ -12,7 +12,7 @@ import Timetable from "../Timetable/Timetable";
 const a11yProps = (index: number) => {
     return {
         id: `simple-tab-${index}`,
-        'aria-controls': `simple-TabContent-${index}`,
+        'aria-controls': `simple-Section-${index}`,
     };
 };
 
@@ -28,7 +28,7 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box sx={{ bgcolor: '#D29C45', borderTop: 3, borderBottom: 3, borderColor: 'divider' }}>
+            <Box sx={{ bgcolor: '#0F5A47', borderBottom: 3, borderColor: '#000000' }}>
                 <Tabs
                     centered
                     variant="fullWidth"
@@ -44,18 +44,18 @@ export default function BasicTabs() {
                     <Tab icon={<ContactUsIcon />} label="Contact Us" {...a11yProps(3)} />
                 </Tabs>
             </Box>
-            <TabContent tabId={0} currentTab={currentTab}>
+            <Section tabId={0} currentTab={currentTab}>
                 <HomeSection />
-            </TabContent>
-            <TabContent tabId={1} currentTab={currentTab}>
+            </Section>
+            <Section tabId={1} currentTab={currentTab}>
                 <Timetable />
-            </TabContent>
-            <TabContent tabId={2} currentTab={currentTab}>
+            </Section>
+            <Section tabId={2} currentTab={currentTab}>
                 Donate
-            </TabContent>
-            <TabContent tabId={3} currentTab={currentTab}>
+            </Section>
+            <Section tabId={3} currentTab={currentTab}>
                 Contact Us
-            </TabContent>
+            </Section>
         </Box>
     );
 }

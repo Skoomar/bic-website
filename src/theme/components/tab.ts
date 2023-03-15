@@ -1,7 +1,7 @@
 const tabTheme = {
     styleOverrides: {
         root: {
-            color: '#0B3D30'
+            color: '#ffffff'
         }
     }
 };
