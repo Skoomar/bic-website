@@ -1,4 +1,4 @@
-const tabTheme = {
+const buttonTheme = {
     styleOverrides: {
         root: {
             color: '#ffffff'
@@ -6,4 +6,4 @@ const tabTheme = {
     }
 };
 
-export default tabTheme;
+export default buttonTheme;

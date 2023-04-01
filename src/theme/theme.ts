@@ -1,11 +1,11 @@
 import { createTheme } from '@mui/material';
 
-import tabTheme from "./components/tab";
+import buttonTheme from "./components/button";
 
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#31572C',
+            main: '#ffffff',
         },
         secondary: {
             main: '#D29C45',
@@ -14,7 +14,7 @@ const theme = createTheme({
         },
     },
     components: {
-        MuiTab: tabTheme
+        MuiButton: buttonTheme
     }
 
 });

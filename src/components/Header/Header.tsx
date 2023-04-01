@@ -7,7 +7,7 @@ import { Box } from "@mui/material";
 
 const Header = () => (
     <Box sx={{ bgcolor: '#0F5A47' }}>
-        <Box display="flex" textAlign={["center", "left"]} >
+        <Box textAlign={["center", "left"]} pb="1rem" sx={{borderBottom: 4, borderColor: '#D29C45'}}>
             <HeaderLogo />
             <Navbar />
             {/* TODO: the tab content from the navbar is currently connected to the Navbar so the layout is weird.
