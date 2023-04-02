@@ -5,7 +5,7 @@ import MainLogo from "./MainLogo";
 
 // TODO: make text sizes responsive, currently looks too big on mobile
 const Home = () => (
-    <div>
+    <Box pl="2rem" pr="2rem">
         <Typography variant="h4" component="h1">
             About Us
         </Typography>
@@ -110,7 +110,7 @@ const Home = () => (
         <Box sx={{ width: '100%' }} display="flex" justifyContent="center">
             <MainLogo />
         </Box>
-    </div>
+    </Box>
 );
 
 export default Home;
