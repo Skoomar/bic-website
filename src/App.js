@@ -41,9 +41,6 @@ function App() {
                     <div className="centre">
                         <img src={prayerTimetable} alt="Prayer Timetable"/>
                     </div>
-                    <div className="centre">
-                        <img src={ramadanTimetable} alt="Ramadan Timetable"/>
-                    </div>
                 </div>
                 <div label="About">
                     <div className="translucent-background">
