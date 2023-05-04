@@ -2,7 +2,11 @@ import React from "react";
 
 import Navbar from "../Navbar/Navbar";
 import HeaderLogo from "./HeaderLogo";
+import bicTitle from "./BicTitle";
+import bicLogo from "./BicLogo";
 import { Box } from "@mui/material";
+import BicTitle from "./BicTitle";
+import BicLogo from "./BicLogo";
 
 
 const Header = () => (
@@ -10,8 +14,9 @@ const Header = () => (
         textAlign={["center", "left"]} pb="1rem" mb="2rem"
         sx={{ bgcolor: '#0F5A47', borderBottom: 4, borderColor: '#D29C45', boxShadow: 10 }}
     >
-
-        <HeaderLogo />
+        <BicTitle/>
+        <BicLogo/>
+        {/*<HeaderLogo />*/}
         <Navbar />
         {/* TODO: the tab content from the navbar is currently connected to the Navbar so the layout is weird.
                 Need to make it so the content is under both the navbar and the logo    */}
