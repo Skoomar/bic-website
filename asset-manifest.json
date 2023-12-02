@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.f755dd76.chunk.css",
-    "main.js": "/static/js/main.79863b8e.chunk.js",
-    "main.js.map": "/static/js/main.79863b8e.chunk.js.map",
+    "main.js": "/static/js/main.fa2d4f3e.chunk.js",
+    "main.js.map": "/static/js/main.fa2d4f3e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.af642255.js",
     "runtime-main.js.map": "/static/js/runtime-main.af642255.js.map",
     "static/js/2.8d9e8f04.chunk.js": "/static/js/2.8d9e8f04.chunk.js",
     "static/js/2.8d9e8f04.chunk.js.map": "/static/js/2.8d9e8f04.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dd15701c2844ed2638e78830273844f1.js": "/precache-manifest.dd15701c2844ed2638e78830273844f1.js",
+    "precache-manifest.cb2eaa66863e7d15fca53647acfc99fe.js": "/precache-manifest.cb2eaa66863e7d15fca53647acfc99fe.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f755dd76.chunk.css.map": "/static/css/main.f755dd76.chunk.css.map",
     "static/js/2.8d9e8f04.chunk.js.LICENSE.txt": "/static/js/2.8d9e8f04.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/blue-bg.bd2f834c.png",
     "static/media/header-logo.png": "/static/media/header-logo.13e9e2dd.png",
     "static/media/logo.png": "/static/media/logo.7939f7ae.png",
-    "static/media/prayer-timetable.jpg": "/static/media/prayer-timetable.40cee824.jpg",
+    "static/media/prayer-timetable.jpg": "/static/media/prayer-timetable.596ea594.jpg",
     "static/media/ramadan-timetable.jpg": "/static/media/ramadan-timetable.fa1700c9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.af642255.js",
     "static/js/2.8d9e8f04.chunk.js",
     "static/css/main.f755dd76.chunk.css",
-    "static/js/main.79863b8e.chunk.js"
+    "static/js/main.fa2d4f3e.chunk.js"
   ]
 }
