@@ -6,7 +6,7 @@ import AmazonSmileBanner from "./components/AmazonSmileBanner"
 import headerLogo from "./images/header-logo.png"
 import logo from "./images/logo.png"
 import prayerTimetable from "./images/prayer-timetable.jpg"
-import ramadanTimetable from "./images/ramadan-timetable.jpg"
+import ramadanAppeal from "./images/ramadan-appeal.jpg"
 
 function App() {
 
@@ -37,9 +37,12 @@ function App() {
             {/*</div>*/}
 
             <NavBar>
-                <div label="Prayer Timetable" className="centre">
+                <div label="Home" className="centre">
                     <div className="centre">
                         <img src={prayerTimetable} alt="Prayer Timetable"/>
+                    </div>
+                    <div className="centre">
+                        <img src={ramadanAppeal} alt="Ramadan Appeal" />
                     </div>
                 </div>
                 <div label="About">
