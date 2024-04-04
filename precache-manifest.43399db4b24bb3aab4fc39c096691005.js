@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a08e2a82a5ad095a39bffb11d08b63c0",
+    "revision": "f029e05cf1c2773fda024b33933b7c8c",
     "url": "/index.html"
   },
   {
-    "revision": "a81b9c307533f8b19ebd",
+    "revision": "484cad2e66474241a4aa",
     "url": "/static/css/main.f755dd76.chunk.css"
   },
   {
-    "revision": "4d6b52ab8eca9a485295",
-    "url": "/static/js/2.888c53a6.chunk.js"
+    "revision": "4d6ebb17d6ff230bc8d0",
+    "url": "/static/js/2.c1aa430b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.888c53a6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c1aa430b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a81b9c307533f8b19ebd",
-    "url": "/static/js/main.816865ef.chunk.js"
+    "revision": "484cad2e66474241a4aa",
+    "url": "/static/js/main.fe9dc805.chunk.js"
   },
   {
     "revision": "e34a82c5fabea5c6ccc9",
@@ -37,10 +37,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "04573cc614d98a8d5b1b8e52a254b81d",
-    "url": "/static/media/prayer-timetable.04573cc6.jpg"
+    "url": "/static/media/prayer-timetable.04573cc6.jpeg"
   },
   {
     "revision": "68e0dd4ea554bd59af82f90666badda5",
     "url": "/static/media/ramadan-appeal.68e0dd4e.jpg"
+  },
+  {
+    "revision": "130769cd0555db4fd05cf54ab5ef0f0c",
+    "url": "/static/media/ramadan-timetable.130769cd.jpg"
   }
 ]);
