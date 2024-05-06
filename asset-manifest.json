@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.f755dd76.chunk.css",
-    "main.js": "/static/js/main.fe9dc805.chunk.js",
-    "main.js.map": "/static/js/main.fe9dc805.chunk.js.map",
+    "main.js": "/static/js/main.1e6346f1.chunk.js",
+    "main.js.map": "/static/js/main.1e6346f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.af642255.js",
     "runtime-main.js.map": "/static/js/runtime-main.af642255.js.map",
     "static/js/2.c1aa430b.chunk.js": "/static/js/2.c1aa430b.chunk.js",
     "static/js/2.c1aa430b.chunk.js.map": "/static/js/2.c1aa430b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.43399db4b24bb3aab4fc39c096691005.js": "/precache-manifest.43399db4b24bb3aab4fc39c096691005.js",
+    "precache-manifest.c44a35ad99519ad1b9da96f78e700468.js": "/precache-manifest.c44a35ad99519ad1b9da96f78e700468.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f755dd76.chunk.css.map": "/static/css/main.f755dd76.chunk.css.map",
     "static/js/2.c1aa430b.chunk.js.LICENSE.txt": "/static/js/2.c1aa430b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/blue-bg.bd2f834c.png",
     "static/media/header-logo.png": "/static/media/header-logo.13e9e2dd.png",
     "static/media/logo.png": "/static/media/logo.7939f7ae.png",
-    "static/media/prayer-timetable.jpeg": "/static/media/prayer-timetable.04573cc6.jpeg",
+    "static/media/prayer-timetable.jpeg": "/static/media/prayer-timetable.a90a908f.jpeg",
     "static/media/ramadan-appeal.jpg": "/static/media/ramadan-appeal.68e0dd4e.jpg",
     "static/media/ramadan-timetable.jpg": "/static/media/ramadan-timetable.130769cd.jpg"
   },
@@ -23,6 +23,6 @@
     "static/js/runtime-main.af642255.js",
     "static/js/2.c1aa430b.chunk.js",
     "static/css/main.f755dd76.chunk.css",
-    "static/js/main.fe9dc805.chunk.js"
+    "static/js/main.1e6346f1.chunk.js"
   ]
 }
