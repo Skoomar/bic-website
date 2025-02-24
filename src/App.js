@@ -6,8 +6,6 @@ import AmazonSmileBanner from "./components/AmazonSmileBanner"
 import headerLogo from "./images/header-logo.png"
 import logo from "./images/logo.png"
 import prayerTimetable from "./images/prayer-timetable.jpeg"
-import ramadanTimetable from "./images/ramadan-timetable.jpg"
-import ramadanAppeal from "./images/ramadan-appeal.jpg"
 
 function App() {
 
@@ -41,12 +39,6 @@ function App() {
                 <div label="Home" className="centre">
                     <div className="centre">
                         <img src={prayerTimetable} alt="Prayer Timetable"/>
-                    </div>
-                    <div className="centre">
-                        <img src={ramadanTimetable} alt="Ramadan Timetable" />
-                    </div>
-                    <div className="centre">
-                        <img src={ramadanAppeal} alt="Ramadan Appeal" />
                     </div>
                 </div>
                 <div label="About">
@@ -190,7 +182,27 @@ function App() {
                                 Account No.: 80859356
                             </p>
                         </div>
-
+                        <div className="float-child info-box">
+                            <p><strong>GiveMatch</strong></p>
+                            <p>Visit <a href="https://app.givematch.com/fr/ENeJciSD">GiveMatch</a> to donate</p>
+                            <p> Help Us Build Essential Facilities for Our Community!
+                                <br/>
+                                <br/>
+                                Your donations this Ramadan can go twice as far!
+                                <br/>
+                                <br/>
+                                We’ve started a crucial project to improve our mosque’s facilities—beginning with a new
+                                extension that will include a kitchen, toilets, and a dedicated learning space for
+                                children. Right now, Quran classes are taking place in the main prayer hall, and with
+                                only two toilets, our current setup isn’t meeting the needs of our growing community.
+                                <br />
+                                <br />
+                                With approved planning and work already underway, our first priority is completing the
+                                extension to provide proper teaching and washing facilities. Once that’s done, we’ll
+                                move on to upgrading the main mosque, improving the toilets and wudu areas to serve
+                                worshippers better.
+                            </p>
+                        </div>
                         <div className="float-child info-box">
                             <p>You shop. Amazon donates 0.5% of the net purchase price (excluding
                                 VAT,

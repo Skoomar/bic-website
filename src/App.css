@@ -146,6 +146,7 @@ p {
     position: relative;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
     padding-left: 15px;
     padding-right: 5px;
     padding-bottom: 10px;
