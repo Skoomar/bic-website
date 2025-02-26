@@ -54,9 +54,27 @@ p {
     text-align: center;
 }
 
-.centre {
+.centre-text {
     text-align: center;
+}
 
+.info-box {
+    background-color: rgba(34, 109, 59, 0.8);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 35em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .window {
@@ -138,19 +156,7 @@ p {
     top: 5px;
 }
 
-.info-box {
-    background-color: rgba(34, 109, 59, 0.8);
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 35em;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-    padding-left: 15px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-}
+
 
 .float-container {
     position: relative;

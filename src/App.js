@@ -36,9 +36,30 @@ function App() {
             {/*</div>*/}
 
             <NavBar>
-                <div label="Home" className="centre">
-                    <div className="centre">
+                <div label="Home" className="centre-text">
+                    <div className="centre-text">
                         <img src={prayerTimetable} alt="Prayer Timetable"/>
+                    </div>
+                    <div className="info-box centre centre-text">
+                        <p><strong>GiveMatch</strong></p>
+                        <p>Visit <a href="https://app.givematch.com/fr/ENeJciSD">GiveMatch</a> to donate</p>
+                        <p> Help Us Build Essential Facilities for Our Community!
+                            <br/>
+                            <br/>
+                            Your donations this Ramadan can go twice as far!
+                            <br/>
+                            <br/>
+                            We’ve started a crucial project to improve our mosque’s facilities—beginning with a new
+                            extension that will include a kitchen, toilets, and a dedicated learning space for
+                            children. Right now, Quran classes are taking place in the main prayer hall, and with
+                            only two toilets, our current setup isn’t meeting the needs of our growing community.
+                            <br />
+                            <br />
+                            With approved planning and work already underway, our first priority is completing the
+                            extension to provide proper teaching and washing facilities. Once that’s done, we’ll
+                            move on to upgrading the main mosque, improving the toilets and wudu areas to serve
+                            worshippers better.
+                        </p>
                     </div>
                 </div>
                 <div label="About">
@@ -166,7 +187,7 @@ function App() {
                                 </ol>
                             </p>
                         </div>
-                        <div className="centre">
+                        <div className="centre-text">
                             <img style={{width: "40%", height: "auto"}} alt="Logo" src={logo}/>
                         </div>
                     </div>
