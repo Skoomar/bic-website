@@ -6,6 +6,7 @@ import AmazonSmileBanner from "./components/AmazonSmileBanner"
 import headerLogo from "./images/header-logo.png"
 import logo from "./images/logo.png"
 import prayerTimetable from "./images/prayer-timetable.jpeg"
+import ramadanTimetable from "./images/ramadan-timetable.jpeg";
 
 function App() {
 
@@ -37,9 +38,7 @@ function App() {
 
             <NavBar>
                 <div label="Home" className="centre-text">
-                    <div className="centre-text">
-                        <img src={prayerTimetable} alt="Prayer Timetable"/>
-                    </div>
+
                     <div className="info-box centre centre-text">
                         <p><strong>GiveMatch</strong></p>
                         <p>Visit <a href="https://app.givematch.com/fr/ENeJciSD">GiveMatch</a> to donate</p>
@@ -60,6 +59,12 @@ function App() {
                             move on to upgrading the main mosque, improving the toilets and wudu areas to serve
                             worshippers better.
                         </p>
+                    </div>
+                    <div className="centre-text">
+                        <img src={ramadanTimetable} width="600px" alt="Ramadan Timetable"/>
+                    </div>
+                    <div className="centre-text">
+                        <img src={prayerTimetable} alt="Prayer Timetable"/>
                     </div>
                 </div>
                 <div label="About">
